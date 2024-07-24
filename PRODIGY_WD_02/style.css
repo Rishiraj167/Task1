@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+}
+
+h1{
+  color: brown;
+  height: 50px;
+}
+
+.stopwatch {
+  background: lightcyan;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#display {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: blue;
+  color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+}
+
+.laps {
+  margin-top: 20px;
+}
+
+#laps-list {
+  list-style: none;
+  padding: 0;
+}
+
+#laps-list li {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
